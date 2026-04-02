@@ -57,6 +57,17 @@ const Footer = () => {
               </div>
             </div>
           </div>
+
+          <div className="divider"></div>
+
+          <div className="text-white/60 text-[12px] md:text-[16px] flex justify-between pb-5 ">
+            <p>© 2026 Digitools. All rights reserved.</p>
+            <ul className='flex gap-10' >
+              <li>Privacy Policy </li>
+              <li>Terms of Service</li>
+              <li>Cookies</li>
+            </ul>
+          </div>
         </div>
       </div>
     );
