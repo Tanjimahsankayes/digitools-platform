@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.imgur.com/ilCFCVT.jpeg",
+    "heading": "Smart Watch Pro",
+    "price": 120,
+    "description": "A modern smartwatch with health tracking features.",
+    "characteristics": [
+      "Heart Rate Monitor",
+      "Water Resistant",
+      "Long Battery Life"
+    ],
+    "button": "Buy Now",
+    "type": "popular"
+  },
+  {
+    "id": 2,
+    "img": "https://i.imgur.com/7q2c4ZZ.jpeg",
+    "heading": "Wireless Headphones",
+    "price": 80,
+    "description": "High quality wireless headphones with noise cancellation.",
+    "characteristics": [
+      "Noise Cancellation",
+      "Bluetooth 5.0",
+      "Comfort Fit"
+    ],
+    "button": "Buy Now",
+    "type": "new"
+  },
+  {
+    "id": 3,
+    "img": "https://i.imgur.com/MXYYeVW.jpeg",
+    "heading": "Gaming Mouse",
+    "price": 45,
+    "description": "Ergonomic gaming mouse with customizable buttons.",
+    "characteristics": [
+      "RGB Lighting",
+      "High DPI Sensor",
+      "Programmable Buttons"
+    ],
+    "button": "Buy Now",
+    "type": "best seller"
+  },
+  {
+    "id": 4,
+    "img": "https://i.imgur.com/v02n5pC.jpeg",
+    "heading": "Mechanical Keyboard",
+    "price": 95,
+    "description": "Durable mechanical keyboard for fast typing and gaming.",
+    "characteristics": [
+      "RGB Backlight",
+      "Blue Switches",
+      "Anti-Ghosting"
+    ],
+    "button": "Buy Now",
+    "type": "popular"
+  },
+  {
+    "id": 5,
+    "img": "https://i.imgur.com/LctI8vR.jpeg",
+    "heading": "Laptop Stand",
+    "price": 35,
+    "description": "Adjustable aluminum laptop stand for better posture.",
+    "characteristics": [
+      "Adjustable Height",
+      "Portable Design",
+      "Heat Dissipation"
+    ],
+    "button": "Buy Now",
+    "type": "new"
+  },
+  {
+    "id": 6,
+    "img": "https://i.imgur.com/g752wd9.jpeg",
+    "heading": "Portable Speaker",
+    "price": 60,
+    "description": "Compact speaker with powerful and relax sound output.",
+    "characteristics": [
+      "Deep Bass",
+      "Bluetooth Connectivity",
+      "Waterproof"
+    ],
+    "button": "Buy Now",
+    "type": "best seller"
+  },
+  {
+    "id": 7,
+    "img": "https://i.imgur.com/krhJApH.jpeg",
+    "heading": "Fitness Band",
+    "price": 50,
+    "description": "Track your daily activity and fitness goals.",
+    "characteristics": [
+      "Step Counter",
+      "Sleep Tracking",
+      "Lightweight"
+    ],
+    "button": "Buy Now",
+    "type": "popular"
+  },
+  {
+    "id": 8,
+    "img": "https://i.imgur.com/niJAOUr.jpeg",
+    "heading": "USB-C Hub",
+    "price": 40,
+    "description": "Expand your laptop connectivity & multiple ports.",
+    "characteristics": [
+      "Multi-Port",
+      "Fast Data Transfer",
+      "Compact Size"
+    ],
+    "button": "Buy Now",
+    "type": "new"
+  },
+  {
+    "id": 9,
+    "img": "https://i.imgur.com/3ri03Tl.jpeg",
+    "heading": "External SSD",
+    "price": 150,
+    "description": "High-speed portable SSD for secure storage.",
+    "characteristics": [
+      "Fast Speed",
+      "Shock Resistant",
+      "Compact Design"
+    ],
+    "button": "Buy Now",
+    "type": "best seller"
+  }
+]
