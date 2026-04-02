@@ -3,8 +3,8 @@ import { CiShoppingCart } from "react-icons/ci";
 
 const NavBar = () => {
     return (
-      <div className='w-11/12 mx-auto' >
-        <div className="navbar bg-base-100 shadow-sm">
+      <div className="bg-base-100 shadow-sm">
+        <div className="navbar  w-11/12 mx-auto">
           <div className="navbar-start">
             <div className="dropdown">
               <div
@@ -76,7 +76,9 @@ const NavBar = () => {
               <CiShoppingCart />
             </div>
             <button className="pr-4">Login</button>
-            <a className="btn btn-primary bg-[#4F39F6] rounded-full">Get Started</a>
+            <a className="btn btn-primary bg-[#4F39F6] rounded-full">
+              Get Started
+            </a>
           </div>
         </div>
       </div>

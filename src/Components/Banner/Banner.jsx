@@ -5,7 +5,7 @@ import BannerImage from '../../assets/products/banner.png'
 
 const Banner = () => {
     return (
-      <div className="flex flex-col-reverse md:flex-row justify-center w-11/12 mx-auto my-20  ">
+      <div className="flex flex-col-reverse md:flex-row justify-center w-11/12 mx-auto my-10 md:my-20  ">
         <div className="flex-1 flex flex-col space-y-4 justify-center ">
           <div className="flex md:justify-start justify-center ">
             <button className="flex items-center gap-2 btn text-[#4F39F6] bg-[#E1E7FF] rounded-full w-80 ">
