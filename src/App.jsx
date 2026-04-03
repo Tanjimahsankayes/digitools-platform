@@ -7,6 +7,7 @@ import NavBar from "./Components/NavBar/NavBar";
 import ProductsCard from "./Components/ProductsCard/ProductsCard";
 import Ratting from "./Components/Ratting/Ratting";
 import WorkFlow from "./Components/WorkFlow/WorkFlow";
+import PricingCard from "./Components/PricingCard/PricingCard";
 
 const fetchData = async () => {
   const res = await fetch("/Data.json");
@@ -44,6 +45,7 @@ function App() {
         ></ProductsCard>
       </Suspense>
       <Card></Card>
+      <PricingCard></PricingCard>
       <WorkFlow></WorkFlow>
       <Footer></Footer>
     </>
