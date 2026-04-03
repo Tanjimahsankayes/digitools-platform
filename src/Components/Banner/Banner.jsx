@@ -1,7 +1,7 @@
 import React from 'react';
 import CircleImage from '../../assets/products/Circle.png'
-import { CiPlay1 } from "react-icons/ci";
 import BannerImage from '../../assets/products/banner.png'
+import PlayImg from '../../assets/products/Play.png'
 
 const Banner = () => {
     return (
@@ -26,13 +26,13 @@ const Banner = () => {
               Explore Products
             </button>
             <button className="flex items-center gap-2 btn text-[#4F39F6] bg-transparent border border-[#4F39F6] rounded-full ">
-              <CiPlay1 className="text-blue-100 font-bold " />
+              <img src={PlayImg} alt="" className='items-center' />
               Watch Demo
             </button>
           </div>
         </div>
-        <div className="flex-1 flex justify-center md:justify-end pb-4 ">
-          <img src={BannerImage} alt="" />
+        <div className="flex-1 flex justify-center md:justify-end pb-4  ">
+          <img src={BannerImage} alt="Banner Image" className="shadow-2xl" />
         </div>
       </div>
     );

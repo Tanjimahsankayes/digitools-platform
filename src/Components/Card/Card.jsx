@@ -12,7 +12,7 @@ const Card = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
         <div className="flex my-8">
-          <div className="card bg-base-100 w-full shadow-sm space-y-4 text-center mb-5">
+          <div className="card bg-base-100 w-full shadow-lg transition-all duration-500 hover:-translate-y-1 space-y-4 text-center mb-5">
             <div className="flex relative ">
               <h4 className="bg-[#4F39F6] w-12 rounded-full p-3 font-bold text-white absolute right-4 top-4 ">
                 01{" "}
@@ -33,7 +33,7 @@ const Card = () => {
           </div>
         </div>
         <div className="flex my-8">
-          <div className="card bg-base-100 w-full shadow-sm space-y-4 text-center mb-5">
+          <div className="card bg-base-100 w-full shadow-lg transition-all duration-500 hover:-translate-y-1 space-y-4 text-center mb-5">
             <div className="flex relative ">
               <h4 className="bg-[#4F39F6] w-12 rounded-full p-3 font-bold text-white absolute right-4 top-4 ">
                 02
@@ -53,7 +53,7 @@ const Card = () => {
           </div>
         </div>
         <div className="flex my-8">
-          <div className="card bg-base-100 w-full shadow-sm space-y-4 text-center mb-5">
+          <div className="card bg-base-100 w-full shadow-lg transition-all duration-500 hover:-translate-y-1 space-y-4 text-center mb-5">
             <div className="flex relative ">
               <h4 className="bg-[#4F39F6] w-12 rounded-full p-3 font-bold text-white absolute right-4 top-4 ">
                 03

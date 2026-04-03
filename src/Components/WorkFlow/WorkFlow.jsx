@@ -12,10 +12,10 @@ const WorkFlow = () => {
             work smarter. <br /> Start your free trial today.
           </p>
           <div className="flex gap-5 justify-center pb-5">
-            <button className="btn rounded-full bg-white text-[#4F39F6] ">
+            <button className="btn rounded-full bg-white text-[#4F39F6] transition transform hover:-translate-y-1 ">
               Explore Products
             </button>
-            <button className="btn rounded-full bg-transparent border border-white ">
+            <button className="btn rounded-full text-white bg-transparent border border-white transition transform hover:-translate-y-1 ">
               View Pricing
             </button>
           </div>

@@ -1,11 +1,18 @@
 import React, { use, useState } from 'react';
 import AvailableProduct from '../AvailableProduct/AvailableProduct';
+import SelectedProduct from '../SelectedProduct/SelectedProduct';
 
-const ProductsCard = ({ productsCardPromise }) => {
+const ProductsCard = ({
+  productsCardPromise,
+  handleRemoveFromCart,
+  cart,
+  handleAddToCart,
+  handleClearCart,
+}) => {
   const product = use(productsCardPromise);
 
   const [isSelected, setSelected] = useState("product");
-  console.log(isSelected);
+
   return (
     <div className="w-11/12 mx-auto mt-20 ">
       <div className="text-center space-y-4 ">
@@ -22,7 +29,7 @@ const ProductsCard = ({ productsCardPromise }) => {
             className={`${
               isSelected === "product" ? "btn-primary" : "bg-transparent"
             } 
-             btn rounded-r-none rounded-full  w-24 `}
+             btn rounded-r-none rounded-full  w-24 transition-all duration-300 `}
           >
             Product
           </button>
@@ -32,15 +39,22 @@ const ProductsCard = ({ productsCardPromise }) => {
             }}
             className={` ${
               isSelected === "card" ? "btn-primary" : "bg-transparent"
-            } btn rounded-l-none rounded-full w-24`}
+            } btn rounded-l-none rounded-full w-24 transition-all duration-300 `}
           >
             Card
           </button>
         </div>
       </div>
-      <AvailableProduct
-        product = {product}
-      ></AvailableProduct>
+
+      {isSelected === "product" ? (
+        <AvailableProduct product={product} handleAddToCart={handleAddToCart} />
+      ) : (
+        <SelectedProduct
+          products={cart}
+          handleRemove={handleRemoveFromCart}
+          handleClearCart={handleClearCart}
+        />  
+      )}
     </div>
   );
 };

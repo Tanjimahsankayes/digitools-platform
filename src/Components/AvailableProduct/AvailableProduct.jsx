@@ -1,17 +1,6 @@
-import React, { useState } from "react";
-import CardImg from "../../assets/products/writing_2327400 1.png"
+import React from "react";
 
-const AvailableProduct = ({ product }) => {
-  const [selectedProducts, setSelectedProducts] = useState([]);
-
-  const handleSelect = (name) => {
-    if (selectedProducts.includes(name)) {
-      setSelectedProducts(selectedProducts.filter((p) => p !== name));
-    } else {
-      setSelectedProducts([...selectedProducts, name]);
-    }
-  };
-
+const AvailableProduct = ({ product, handleAddToCart }) => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20 ">
       {product.map((item, index) => (
@@ -31,7 +20,7 @@ const AvailableProduct = ({ product }) => {
                 </div>
 
                 <div className="mb-4">
-                  <h2 className="text-3xl font-boldtext-2xl md:text-3xl font-bold mb-2">
+                  <h2 className="text-xl md:text-3xl font-bold mb-2">
                     {item.heading}
                   </h2>
                   <p className="text-black/60 text-sm md:text-base ">
@@ -67,7 +56,10 @@ const AvailableProduct = ({ product }) => {
                   </ul>
                 </div>
                 <div className="mt-6">
-                  <button className="btn btn-primary w-full transition-all duration-300 hover:scale-105">
+                  <button
+                    onClick={() => handleAddToCart(item)}
+                    className="btn btn-primary w-full transition-all duration-300 hover:scale-105"
+                  >
                     {item.button}
                   </button>
                 </div>

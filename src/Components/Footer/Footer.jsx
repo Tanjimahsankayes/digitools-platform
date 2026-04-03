@@ -45,13 +45,13 @@ const Footer = () => {
                 Social Links
               </h1>
               <div className="flex gap-6 text-2xl cursor-pointer md:justify-start justify-center">
-                <div className="border rounded-full p-2 bg-white text-black">
+                <div className="border rounded-full p-2 bg-white text-black transition transform hover:-translate-y-1 ">
                   <FaInstagram />
                 </div>
-                <div className="border rounded-full p-2 bg-white text-black">
+                <div className="border rounded-full p-2 bg-white text-black transition transform hover:-translate-y-1 ">
                   <FaFacebookSquare />
                 </div>
-                <div className="border rounded-full p-2 bg-white text-black">
+                <div className="border rounded-full p-2 bg-white text-black transition transform hover:-translate-y-1 ">
                   <FaXTwitter />
                 </div>
               </div>
@@ -62,7 +62,7 @@ const Footer = () => {
 
           <div className="text-white/60 text-[12px] md:text-[16px] flex justify-between pb-5 ">
             <p>© 2026 Digitools. All rights reserved.</p>
-            <ul className='flex gap-10' >
+            <ul className="flex gap-10">
               <li>Privacy Policy </li>
               <li>Terms of Service</li>
               <li>Cookies</li>
