@@ -76,7 +76,7 @@ const NavBar = ({ cartCount }) => {
             )}
           </div>
           <button className="pr-4 cursor-pointer ">Login</button>
-          <a className="btn btn-primary bg-[#4F39F6] rounded-full">
+          <a className="btn btn-primary bg-[#4F39F6] rounded-full transition transform hover:-translate-y-1">
             Get Started
           </a>
         </div>
