@@ -10,7 +10,7 @@ const PricingCard = () => {
           </p>
         </div>
         <div className="grid gap-10 grid-cols-1 md:grid-cols-3">
-          <div className="card bg-base-100 shadow-sm">
+          <div className="card bg-base-100 shadow-sm transition transform hover:-translate-y-1 duration-500  ">
             <div className="card-body flex flex-col justify-between ">
               <div>
                 <h2 className="text-3xl font-bold  ">Starter</h2>
@@ -99,13 +99,13 @@ const PricingCard = () => {
               </div>
             </div>
           </div>
-          <div className="card shadow-sm bg-[#4F39F6] text-white relative ">
-            <div className="absolute mx-auto left-40 -top-2 ">
-              <span className="badge badge-xs badge-warning p-3 rounded-full text-white font-semibold ">
+          <div className="card shadow-sm bg-[#4F39F6] text-white relative transition transform hover:-translate-y-1 duration-600 ">
+            <div className="absolute mx-auto left-60 md:left-40 -top-3 ">
+              <span className="badge badge-xs badge-warning p-4 rounded-full text-white font-semibold ">
                 Most Popular
               </span>
             </div>
-            <div className="card-body flex flex-col justify-between ">
+            <div className="card-body flex flex-col justify-between">
               <div>
                 <h2 className="text-3xl font-bold  ">Pro</h2>
                 <p className="text-white/80 pb-5 ">Best for professionals</p>
@@ -225,8 +225,8 @@ const PricingCard = () => {
             </div>
           </div>
 
-          <div className="card bg-base-100 shadow-sm">
-            <div className="card-body flex flex-col justify-between ">
+          <div className="card bg-base-100 shadow-sm transition transform hover:-translate-y-1 duration-500 ">
+            <div className="card-body flex flex-col justify-between">
               <div>
                 <h2 className="text-3xl font-bold  ">Enterprise</h2>
                 <p className="text-black/50 pb-5 ">For teams and businesses</p>

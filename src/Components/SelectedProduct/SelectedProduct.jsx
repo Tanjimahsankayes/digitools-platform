@@ -21,9 +21,9 @@
             <div key={ind} className="shadow-sm bg-gray-50 rounded-2xl mb-6 p-6 ">
               <div className="flex justify-between">
                 <div className="flex gap-8 items-center ">
-                  <img src={item.img} alt="" className="w-20 h-20" />
+                  <img src={item.img} alt="" className="md:w-20 md:h-20 w-12 h-12 " />
                   <div>
-                    <h3 className="text-xl font-semibold items-center">
+                    <h3 className=" text-ld md:text-xl font-semibold items-center">
                       {item.heading}
                     </h3>
                     <p className="text-black/60"> ${item.price}</p>
@@ -31,7 +31,7 @@
                 </div>
                 <button
                   onClick={() => handleRemove(ind)}
-                  className="text-md text-red-600 cursor-pointer "
+                  className="text-lg md:text-md text-red-600 cursor-pointer "
                 >
                   Remove
                 </button>
